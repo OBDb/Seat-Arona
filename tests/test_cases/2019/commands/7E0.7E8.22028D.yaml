@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22028D
 test_cases:
 - expected_values:
-    ARONA_ENG_CTRL_MODULE_T: -252.6
+    ARONA_ENG_CTRL_MODULE_T: 20.5
   response: 7E80562028D00CD
 - expected_values:
-    ARONA_ENG_CTRL_MODULE_T: -247.4
+    ARONA_ENG_CTRL_MODULE_T: 25.7
   response: 7E80562028D0101
 - expected_values:
-    ARONA_ENG_CTRL_MODULE_T: -224.9
+    ARONA_ENG_CTRL_MODULE_T: 48.2
   response: 7E80562028D01E2
