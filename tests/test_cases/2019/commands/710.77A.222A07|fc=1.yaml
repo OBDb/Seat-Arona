@@ -1,0 +1,14 @@
+command_id: 710.77A.222A07|fc=1
+test_cases:
+- expected_values:
+    ARONA_BAT_V_2A07: 12.094
+  response: 77A05622A071F9E
+- expected_values:
+    ARONA_BAT_V_2A07: 12.449
+  response: 77A05622A072101
+- expected_values:
+    ARONA_BAT_V_2A07: 12.958
+  response: 77A05622A0722FE
+- expected_values:
+    ARONA_BAT_V_2A07: 14.774
+  response: 77A05622A072A16

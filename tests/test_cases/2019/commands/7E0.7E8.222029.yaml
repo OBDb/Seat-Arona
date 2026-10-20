@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222029
+test_cases:
+- expected_values:
+    ARONA_PQ35_CHARGE_AIR_P_SPECIFIED: 0
+  response: '7E8056220290000'
+- expected_values:
+    ARONA_PQ35_CHARGE_AIR_P_SPECIFIED: 81.84
+  response: 7E80562202903FF
+- expected_values:
+    ARONA_PQ35_CHARGE_AIR_P_SPECIFIED: 142.8
+  response: 7E80562202906F9

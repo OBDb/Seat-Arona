@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221105
+test_cases:
+- expected_values:
+    ARONA_PQ35_INJ_DEV_CYL_2: 24.63
+  response: 7E805621105099F
+- expected_values:
+    ARONA_PQ35_INJ_DEV_CYL_2: -15.36
+  response: 7E805621105FA00
+- expected_values:
+    ARONA_PQ35_INJ_DEV_CYL_2: -0.01
+  response: 7E805621105FFFF

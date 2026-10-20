@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210E3
+test_cases:
+- expected_values:
+    ARONA_PQ35_TRQ_RED_EXH_T: 0.6431
+  response: 7E8056210E3191F
+- expected_values:
+    ARONA_PQ35_TRQ_RED_EXH_T: 0.6511
+  response: 7E8056210E3196F

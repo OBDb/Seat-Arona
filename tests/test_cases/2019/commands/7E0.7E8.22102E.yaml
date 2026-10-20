@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22102E
+test_cases:
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E000033FB
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E00003459
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E0000345A
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E0000345E
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E0000345F
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E00003460
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E00003461
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E000034C1
+- expected_values:
+    ARONA_PQ35_ACCEL_PED_2: 0
+  response: 7E80762102E000034C2

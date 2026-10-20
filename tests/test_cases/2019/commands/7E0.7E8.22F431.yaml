@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    ARONA_CLR_DIST: 1719
+  response: 7E80562F43106B7
+- expected_values:
+    ARONA_CLR_DIST: 2799
+  response: 7E80562F4310AEF
+- expected_values:
+    ARONA_CLR_DIST: 3128
+  response: 7E80562F4310C38

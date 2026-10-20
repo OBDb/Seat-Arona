@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222006
+test_cases:
+- expected_values:
+    ARONA_PQ35_OIL_FILL_LEVEL: 2.88
+  response: '7E8056220060030'
+- expected_values:
+    ARONA_PQ35_OIL_FILL_LEVEL: 3.54
+  response: 7E805622006003B

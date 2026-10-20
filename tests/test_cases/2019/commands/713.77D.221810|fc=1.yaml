@@ -1,0 +1,22 @@
+command_id: 713.77D.221810|fc=1
+test_cases:
+- expected_values:
+    ARONA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D1008621810001081
+    77D21FFFEAAAAAAAAAA
+- expected_values:
+    ARONA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D1008621810001100
+    77D21FFFEAAAAAAAAAA
+- expected_values:
+    ARONA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D10086218100018FF
+    77D21FFFEAAAAAAAAAA
+- expected_values:
+    ARONA_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D1008621810001B4B
+    77D21FFFEAAAAAAAAAA

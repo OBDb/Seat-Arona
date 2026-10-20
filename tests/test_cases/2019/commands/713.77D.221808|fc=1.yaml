@@ -1,0 +1,22 @@
+command_id: 713.77D.221808|fc=1
+test_cases:
+- expected_values:
+    ARONA_HDC_ACTIVE: 0
+    ARONA_HDC_INCLINE: 0
+  response: 77D056218080000
+- expected_values:
+    ARONA_HDC_ACTIVE: 0
+    ARONA_HDC_INCLINE: 1
+  response: 77D056218080001
+- expected_values:
+    ARONA_HDC_ACTIVE: 0
+    ARONA_HDC_INCLINE: 2
+  response: 77D056218080002
+- expected_values:
+    ARONA_HDC_ACTIVE: 0
+    ARONA_HDC_INCLINE: 3
+  response: 77D056218080003
+- expected_values:
+    ARONA_HDC_ACTIVE: 0
+    ARONA_HDC_INCLINE: 4
+  response: 77D056218080004
