@@ -1,0 +1,8 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    ARONA_AAT_746: 12
+  response: 7B0046226097C
+- expected_values:
+    ARONA_AAT_746: 29
+  response: 7B0046226099E

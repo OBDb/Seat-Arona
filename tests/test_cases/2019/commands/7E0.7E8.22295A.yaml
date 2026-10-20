@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22295A
+test_cases:
+- expected_values:
+    ARONA_ODO_MILEAGE: 126290
+  response: 7E80662295A01ED52
+- expected_values:
+    ARONA_ODO_MILEAGE: 134741
+  response: 7E80662295A020E55
+- expected_values:
+    ARONA_ODO_MILEAGE: 135234
+  response: 7E80662295A021042
+- expected_values:
+    ARONA_ODO_MILEAGE: 135821
+  response: 7E80662295A02128D

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221044|din=03
+test_cases:
+- expected_values:
+    ARONA_DPF_SFC_T: -273.1
+  response: '7E80762104400000044'
+- expected_values:
+    ARONA_DPF_SFC_T: -273.1
+  response: 7E807621044000000C4

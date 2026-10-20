@@ -1,0 +1,14 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    ARONA_STEER_WHEEL_ANGLE: -585.75
+  response: 77C056218120522
+- expected_values:
+    ARONA_STEER_WHEEL_ANGLE: 17.375
+  response: 77C0562181217FB
+- expected_values:
+    ARONA_STEER_WHEEL_ANGLE: 210.125
+  response: 77C056218121E01
+- expected_values:
+    ARONA_STEER_WHEEL_ANGLE: 379.875
+  response: 77C05621812234F

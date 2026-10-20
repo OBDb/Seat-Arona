@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210F3|din=03
+test_cases:
+- expected_values:
+    ARONA_PQ35_DPF_DIFF_P_2: -32580
+  response: 7E8056210F380BC
+- expected_values:
+    ARONA_PQ35_DPF_DIFF_P_2: -32534
+  response: 7E8056210F380EA
+- expected_values:
+    ARONA_PQ35_DPF_DIFF_P_2: -32500
+  response: 7E8056210F3810C
+- expected_values:
+    ARONA_PQ35_DPF_DIFF_P_2: -32399
+  response: 7E8056210F38171
+- expected_values:
+    ARONA_PQ35_DPF_DIFF_P_2: -32245
+  response: 7E8056210F3820B

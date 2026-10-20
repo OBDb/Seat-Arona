@@ -1,0 +1,22 @@
+command_id: 713.77D.22180E|fc=1
+test_cases:
+- expected_values:
+    ARONA_BDD_ACTIVE: 0
+    ARONA_BDD_ODO: 126271
+  response: 77D0762180E0101ED3F
+- expected_values:
+    ARONA_BDD_ACTIVE: 0
+    ARONA_BDD_ODO: 133482
+  response: 77D0762180E0102096A
+- expected_values:
+    ARONA_BDD_ACTIVE: 0
+    ARONA_BDD_ODO: 134911
+  response: 77D0762180E01020EFF
+- expected_values:
+    ARONA_BDD_ACTIVE: 0
+    ARONA_BDD_ODO: 135396
+  response: 77D0762180E010210E4
+- expected_values:
+    ARONA_BDD_ACTIVE: 0
+    ARONA_BDD_ODO: 133482
+  response: 77D0762180E0502096A
