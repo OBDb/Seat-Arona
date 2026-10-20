@@ -76,10 +76,6 @@
   "signals": [
     {"id": "ARONA_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_STEER_WHEEL_ANGLE_ABS", "path": "Tires", "fmt": {"bix": 80, "len": 16, "max": 14335.5625, "min": -14336, "mul": 0.4375, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
-  ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ARONA_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
@@ -89,14 +85,6 @@
   "signals": [
     {"id": "ARONA_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "ARONA_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
-  ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_EDL_ACTIVE",       "path": "Control", "fmt": {"bix": 1,  "len": 1,  "max": 1,                                       "unit": "offon"   }, "name": "Electronic differential lock: active"},
-    {"id": "ARONA_EDL_FR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
-    {"id": "ARONA_EDL_FR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front right brake temperature"},
-    {"id": "ARONA_EDL_RR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
-    {"id": "ARONA_EDL_RR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
@@ -402,14 +390,6 @@
   "signals": [
     {"id": "ARONA_PF_DIFF_P_FILTERED", "path": "Engine", "fmt": { "len": 16, "max": 11383.75, "min": -5000, "div": 4, "add": -5000, "unit": "unknown" }, "name": "Particulate filter differential pressure, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "1044"}, "freq": 300, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_DPF_SFC_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Diesel particulate filter surface temperature"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1047"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_PQ35_ENG_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "104B"}, "freq": 1,
   "signals": [
     {"id": "ARONA_PQ35_AC_COMP_TRQ", "path": "Climate", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Air conditioning compressor torque"}
@@ -562,14 +542,6 @@
   "signals": [
     {"id": "ARONA_PQ35_DPF_DIFF_P_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure offset"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "10F3"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_PQ35_DPF_DIFF_P_2", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure variant 2"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10F9"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_PQ35_DPF_OUT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Diesel particulate filter outlet temperature"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "10FB"}, "freq": 5,
   "signals": [
     {"id": "ARONA_PQ35_EXH_GAS_T_1", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 1"}
@@ -605,10 +577,6 @@
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "111A"}, "freq": 1,
   "signals": [
     {"id": "ARONA_PQ35_FUEL_FLOW", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "liters" }, "name": "Fuel flow rate"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "111F"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_PQ35_PREHEAT_T", "path": "Engine", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "milliseconds" }, "name": "Glow plug preheat time"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1124"}, "freq": 0.25,
   "signals": [
@@ -649,10 +617,6 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1131"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "ARONA_PQ35_POST_INJ_3_START", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Post-injection 3 start position"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1136"}, "freq": 1,
   "signals": [
@@ -1729,10 +1693,6 @@
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "208D"}, "freq": 30,
   "signals": [
     {"id": "ARONA_DIST_SINCE_REGEN", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance since last regeneration"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2018, "from": 2020 },
-  "signals": [
-    {"id": "ARONA_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "dbg": true, "cmd": {"22": "20C0"}, "freq": 1,
   "signals": [
