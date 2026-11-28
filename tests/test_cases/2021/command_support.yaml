@@ -53,3 +53,6 @@ supported_commands_by_ecu:
   - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 019E:EXH_RATE
   - 01A4:GEAR_ACT,GEAR_ACT_SUP,GEAR_RAT,GEAR_RAT_SUP
+unsupported_commands_by_ecu:
+  "746":
+  - 746.7B0.22482B|fc=1:ARONA_CLIMATE_A_C_CLCH
